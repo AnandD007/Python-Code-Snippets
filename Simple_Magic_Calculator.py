@@ -37,6 +37,7 @@ def performMath():     # In the first two lines of performMath() we used global 
         
     if previous == 0:
         previous = eval(equation)
+        print("\nResult:",previous)
     else:
         previous = eval(str(previous) + equation)
 
